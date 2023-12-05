@@ -1,0 +1,124 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #d41616fd;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Move text to the right */
+.nav-right {
+    margin-left: auto;
+}
+
+/* Banner Styles */
+.banner {
+    background: url(assets/banner.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 180px;
+    
+}
+
+/* Section Home */
+#home {
+    background-color: #fdfafa; /* Background color for Home section */
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#home p {
+    text-align: justify;
+    font-size:large;
+}
+
+#home h4 {
+    text-align: left;
+}
+
+/* Section List */
+#list h2{
+    background-color: #ef3333;
+    text-align: center;
+    color :white;
+}
+
+#list {
+    background-color: #ef3333; /* Background color for Event section */
+    padding: 20px;
+    text-align: left;
+    color :white;
+}
+
+#list p, li{
+    text-align: justify;
+    font-size:large;
+}
+
+
+/* Section Tiket */
+#tiket {
+    background-color: #fdfafa; /* Background color for Tiket section */
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #efefef;
+    color: rgb(222, 48, 48);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ef3333;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.how-to-buy {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.label-input{
+    text-align: center;
+}

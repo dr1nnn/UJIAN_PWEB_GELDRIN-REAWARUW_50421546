@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiket Konser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-left">
+        <nav>
+            <img src="assets/logo.png" alt="Logo" class="logo">
+            <a href="#home">Home</a>
+            <a href="#list">Set List</a>
+            <a href="#tiket">Beli Tiket</a>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h2>Selamat datang di Konser Musik</h2>
+        <h1>BE THE SUN</h1>
+        <p>Dapatkan pengalaman konser musik terbaik di sini. Segera beli tiketnya sebelum kehabisan!</p>
+    </div>
+
+    <!-- Section Home -->
+    <section id="home" class="content">
+        <h2 align="center">HOME</h2>
+        <h3 align="center">Seventeen Be The Sun Concert in Jakarta</h3>
+        <br></br>
+        <p>Kabar gembira untuk CARAT! Setelah mengadakan SEVENTEEN WORLD TOUR [BE THE SUN] 
+            - JAKARTA selama 2 hari di bulan September, SEVENTEEN akan kembali lagi ke Jakarta 
+            di penghujung tahun ini untuk konser [BE THE SUN] dan berjumpa dengan lebih banyak CARAT 
+            di venue yang lebih besar. SEVENTEEN akan menampilkan lagu-lagu terbaiknya di 
+            Stadion Madya Gelora Bung Karno pada tanggal 28 Desember 2022.</p>
+        <p>Kategori BLUE SOUNDCHECK PACKAGE tersedia untuk Official CARAT Member dan MCP Member 
+            untuk dapat menyapa SEVENTEEN lebih dekat.</p> 
+        <p>Mimin mau ngasih tau nih, kalo CARAT juga bisa loh pesen tiket lewat website ini.</p>
+        <h4>CARAT, mari menghabiskan akhir tahun 2022 bersama SEVENTEEN!</h4>
+    </section>
+
+    <!-- Section Set List -->
+    <section id="list" class="content">
+        <h2 align="center">SET LIST</h2>
+        <div class="container">
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-12">
+                    <div class="set-list-content">
+                        <h3>Set List Lagu Hari Pertama</h3>
+                        <p>28 Desember 2022 </p>
+                        <ul>
+                            <li>HOT</li>
+                            <li>March</li>
+                            <li>HIT</li>
+                            <li>Rock with you</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="set-list-content">
+                        <h3>Set List Lagu Hari Kedua</h3>
+                        <p>29 Desember 2022</p>
+                        <ul>
+                            <li>2 MINUS 1</li>
+                            <li>GAM3 BO1</li>
+                            <li>Fire</li>
+                            <li>VERY NICE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tiket -->
+    <section id="tiket" class="content">
+        <h2 align="center">TIKET</h2>
+        <p align="center">Dapatkan sebelum kehabisan!!!</p>
+
+        <table class="ticket-table">
+            <thead>
+                <tr>
+                    <th>Kategori Tiket</th>
+                    <th>Harga</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="ticketList">
+                <!-- Data tiket akan ditambahkan secara dinamis di sini -->
+            </tbody>
+        </table>
+
+        <div class="how-to-buy">
+            <h3>Cara Pembelian Tiket</h3>
+            <p>Beli tiket konser SEVENTEEN BE THE SUN mudah dan cepat:</p>
+        </div>
+
+        <div class="label-input">
+            <label for="ticketCategory">Kategori Tiket:</label>
+            <input type="text" id="ticketCategory" placeholder="Contoh: Regular">
+
+            <label for="ticketPrice">Harga:</label>
+            <input type="text" id="ticketPrice" placeholder="Contoh: Rp 400.000">
+
+            <button onclick="addTicket()">Tambah Tiket</button>
+            <button onclick="saveTicket()">Simpan</button>
+        </div>
+        <br></br>
+        <p align="center">Jangan lewatkan konser musik spektakuler ini!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Tiket Konser. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
